@@ -1,0 +1,18 @@
+# Ignore everything by default
+*
+
+# Allow directories so Git can reach nested files
+!*/
+
+# Keep all source directories and their contents
+!**/src/
+!**/src/**
+
+# Keep Maven POM files at every level
+!**/pom.xml
+
+# Keep README files at every level
+!**/README.md
+
+# Keep .gitignore files at every level
+!**/.gitignore
