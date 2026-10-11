@@ -1,0 +1,8 @@
+com\minisec\jwt\authentication\JwtAuthenticationProviderTest.class
+com\minisec\jwt\JwtTokenServiceTest$1.class
+com\minisec\jwt\JwtTokenServiceTest.class
+com\minisec\jwt\jjwt\JjwtJwtEncoderDecoderTest.class
+com\minisec\jwt\jjwt\JjwtJwtEncoderDecoderTest$1.class
+com\minisec\jwt\authentication\JwtAuthenticationProviderTest$1.class
+com\minisec\jwt\config\JwtKeyValidatorTest.class
+com\minisec\jwt\config\JwtConfigurationTest.class

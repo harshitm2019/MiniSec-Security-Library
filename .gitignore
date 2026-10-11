@@ -1,19 +1,18 @@
 # Ignore everything by default
-*
+/*
 
+# Allow root-level required files
+!/pom.xml
+!/MiniSec-README.md
+!/.gitignore
 
-# Allow directories so Git can reach nested files
-!*/
+# Allow module directories
+!/mini-sec-core/
+!/mini-sec-jwt/
 
-# Keep all source directories and their contents
+# Allow required files and directories recursively
 !**/src/
 !**/src/**
-
-# Keep Maven POM files at every level
 !**/pom.xml
-
-# Keep README files at every level
-!**/MiniSec-README.md
-
-# Keep .gitignore files at every level
+!**/README.md
 !**/.gitignore
