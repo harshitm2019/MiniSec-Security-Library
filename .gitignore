@@ -1,6 +1,9 @@
 # Ignore everything by default
 /*
 
+# Ignore IDE configuration
+/.idea/
+
 # Allow root-level required files
 !/pom.xml
 !/MiniSec-README.md
