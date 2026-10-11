@@ -1,6 +1,7 @@
 # Ignore everything by default
 *
 
+
 # Allow directories so Git can reach nested files
 !*/
 
@@ -12,7 +13,7 @@
 !**/pom.xml
 
 # Keep README files at every level
-!**/README.md
+!**/MiniSec-README.md
 
 # Keep .gitignore files at every level
 !**/.gitignore
