@@ -1,21 +1,27 @@
-# Ignore everything by default
+# Ignore everything at the root
 /*
 
-# Ignore IDE configuration
-/.idea/
-
-# Allow root-level required files
+# Allow only the required root files
 !/pom.xml
-!/MiniSec-README.md
+!/README.md
 !/.gitignore
 
-# Allow module directories
+# Allow only the two Maven modules
 !/mini-sec-core/
 !/mini-sec-jwt/
 
-# Allow required files and directories recursively
-!**/src/
-!**/src/**
-!**/pom.xml
-!**/README.md
-!**/.gitignore
+# Inside modules, ignore everything by default
+/mini-sec-core/*
+/mini-sec-jwt/*
+
+# Allow source code and Maven POMs
+!/mini-sec-core/src/
+!/mini-sec-core/pom.xml
+!/mini-sec-jwt/src/
+!/mini-sec-jwt/pom.xml
+
+# Keep all files and subdirectories inside src
+/mini-sec-core/src/**
+!/mini-sec-core/src/**/
+/mini-sec-jwt/src/**
+!/mini-sec-jwt/src/**/
